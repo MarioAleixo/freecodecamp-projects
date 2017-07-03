@@ -1,0 +1,357 @@
+#navbar-custom {
+  background-color: #ea8b0b;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #ea8b0b;
+  color: none;
+}
+
+.active {
+  border-bottom: 5px solid #ffffff;
+}
+
+.nav > li > a {
+  box-sizing: content-box;
+}
+
+.navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+
+}
+
+#page-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+#home {
+	height: 610px;
+	background-color: #ebebeb;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%23ea8b0b' fill-opacity='0.25'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	color: #2f3742;
+  padding-top: 90px
+}
+
+#home-name-box {
+  font-size: 180px;
+  text-align: center;
+  line-height: 0.8;
+  padding: 20px 30px;
+  border: 15px solid #2f3742;
+}
+
+#last-name {
+  display: block;
+
+}
+
+#personal-details {
+  width: 100%;
+}
+
+.profile-pic {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	border: 10px #2f3742 solid;
+	height: 100px;
+	width: 100px;
+}
+
+#contact-btn {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 150px;
+	background-color: #2f3742;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+}
+
+#occupation {
+	font-size: 20px;
+}
+
+.personal-detail {
+	display: block;
+	font-size: 30px;
+	margin-bottom: 20px;
+  text-align: center;
+}
+
+.personal-detail span {
+	display: block;
+}
+
+#left-details, #right-details {
+	margin-top: 110px;
+}
+
+#left-details {
+	padding-left: 180px;
+}
+
+#contact-btn:hover {
+
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item {
+  max-width: 100%;
+}
+
+#contact-about {
+  display: block;
+}
+
+#about-text {
+  font-size: 20px;
+  vertical-align: middle;
+  height: 300px;
+  background-color: #ebebeb;
+}
+
+#home-scroll {
+  margin-top: 30px;
+}
+
+#services {
+  background-color: #ebebeb; 
+  height: 610px;
+}
+
+.service {
+  display: inline-block;
+  background-color: #2f3742;
+  color: #ffffff;
+  height: 400px;
+  border-style: solid;
+  border-width: 0 10px 0 10px;
+  border-color: #ebebeb;
+  box-sizing: border-box;
+}
+
+#services-row {
+  margin: 100px 10%;
+}
+
+.service-name {
+  text-align: center;
+}
+
+.service > i {
+  font-size: 100px;
+  width: 100%;
+  text-align: center;
+  line-height: inherit;
+}
+
+.service-desc {
+  box-sizing: content-box;
+  margin: 0 15px;
+  font-size: 17px;
+
+}
+
+#resume {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+#resume-title {
+  text-align: center;
+}
+
+.project {
+  background-color: #2f3742;
+  height: 250px;
+  margin: 10px;
+}
+
+.project-text {
+  text-align: center;
+}
+
+.project-title {
+  color: #ea8b0b;
+}
+
+.lang-frame {
+  color: #777;
+}
+
+#about {
+  background-color: #ebebeb;
+  min-height: 500px;
+}
+
+#about-me-text {
+  margin-right: 30px;
+  font-size: 1.2em;
+}
+
+#contact {
+  background-color: #2f3742;
+  min-height: 500px;
+}
+
+.contact-profile-pic {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 15px #ffffff solid;
+  height: 250px;
+  width: 250px;
+  margin-top: 60px;
+}
+
+#contact-name {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+#contact-icons {
+  display: block;
+  text-align: center;
+  color: #2f3742;
+}
+
+.contact-icon {
+  background: #ebebeb;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 70px;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+#footer {
+  background-color: #ea8b0b;
+  display: block;
+}
+
+#footer > div {
+  height: 40px;
+  padding: 10px 0;
+}
+
+/*=========== MOUSE SCROLL ICON ==============*/
+
+body {
+  padding-top: 50px;
+}
+
+
+.scroll-downs {
+  position: static;
+  display: block;
+  /*top: 550px;*/
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 55px;
+  border: 2px solid #2f3742;
+  border-radius: 15px;
+  opacity: 0.75;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #ea8b0b;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+/* =========== MEDIA QUERIES ============== */
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1200px) {
+
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+    
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+    #home-name-box {
+      font-size: 50px;
+    }
+
+    #home {
+      height: 350px;
+    }
+
+    #scroll-container {
+      display: none;
+    }
+
+    #about {
+      padding: 20px 0;
+    }
+
+    .icon-bar {
+      background-color: white;
+    }
+
+    .active {
+      border: none;
+    }
+
+    .navbar-nav > li > a {
+      font-size: 20px;
+    }
+  }
+
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+
+  }
+
+  /* Custom, iPhone Retina */ 
+  @media only screen and (max-width : 320px) {
+ 
+  }
