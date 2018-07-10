@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main2.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row col-sm-6 offset-sm-3 justify-content-center" id="main">
+
+            <div class="container col-sm-5 viewer" id="viewer">
+                <p id="answer">0</p>
+            </div>
+
+            <div class="row">
+                <div class="" id="buttons">
+                    <div class="row">
+                        <button class="num" value="7">7</button>
+                        <button class="num" value="8">8</button>
+                        <button class="num" value="9">9</button>
+                        <button class="ops" value="+">+</button>
+                    </div>
+
+                    <div class="row">
+                        <button class="num" value="4">4</button>
+                        <button class="num" value="5">5</button>
+                        <button class="num" value="6">6</button>
+                        <button class="ops" value="-">-</button>
+                    </div>
+
+                    <div class="row">
+                        <button class="num" value="1">1</button>
+                        <button class="num" value="2">2</button>
+                        <button class="num" value="3">3</button>
+                        <button class="ops" value="*">&times;</button>
+                    </div>
+
+                    <div class="row">
+                        <button class="num" value="0">0</button>
+                        <button class="num" value=".">.</button>
+                        <button class="equals" id="equals" value="=">=</button>
+                        <button class="ops" value="/">&divide;</button>
+                    </div>
+
+                    <div class="row">
+                        <button id="clear" class="clear" value="ac">C</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="text-center">
+        <div class="container">
+            Designed &amp; Coded by
+            <a href="https://www.linkedin.com/in/mario-aleixo-0a9b34113/" target="_blank">
+              Mario Aleixo</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
