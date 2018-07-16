@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tic Tac Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/2945e856e2.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="info">
+
+            <div id="hiddenDiv">
+
+                <p id="choice">Choose your marker:</p>
+
+                <div id="marker-buttons">
+                    <div class="marker-button" id="cross-marker-button" onclick="setMarker(this.id)">&#10005;</div>
+                    <div class="marker-button" id="circle-marker-button" onclick="setMarker(this.id)">&#11096;</div>
+                </div>
+
+                <div id="player-markers">
+                    <div class="player-marker" id="player-marker-cross"></div>
+                    <div class="player-marker" id="player-marker-circle"></div>
+                </div>
+
+                <div id="result">
+
+                </div>
+
+            </div>
+
+            <div id="start-reset" onclick="start()">START</div>
+        </div>
+        <div id="game">
+            <table>
+                <tr>
+                    <td class="cell" id="cOne" onclick="icon(this.id)"></td>
+                    <td class="cell" id="cTwo" onclick="icon(this.id)"></td>
+                    <td class="cell" id="cThree" onclick="icon(this.id)"></td>
+                </tr>
+                <tr>
+                    <td class="cell" id="cFour" onclick="icon(this.id)"></td>
+                    <td class="cell" id="cFive" onclick="icon(this.id)"></td>
+                    <td class="cell" id="cSix" onclick="icon(this.id)"></td>
+                </tr>
+                <tr>
+                    <td class="cell" id="cSeven" onclick="icon(this.id)"></td>
+                    <td class="cell" id="cEight" onclick="icon(this.id)"></td>
+                    <td class="cell" id="cNine" onclick="icon(this.id)"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
